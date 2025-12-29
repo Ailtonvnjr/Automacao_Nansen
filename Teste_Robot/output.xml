@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-12-16T14:35:42.715268" rpa="false" schemaversion="5">
+<suite id="s1" name="TC Validation" source="C:\Users\nsn102241\Documents\Teste_Robot\TC_Validation.robot">
+<test id="s1-t1" name="Caso de teste 1 - Click" line="9">
+<kw name="Iniciar fullauto" owner="Scenaries" type="SETUP">
+<kw name="Add Image Path" owner="SikuliLibrary">
+<arg>C:\\Users\\nsn102241\\Documents\\Teste_Robot\\Resources/Evidencias</arg>
+<doc>Add image path</doc>
+<status status="PASS" start="2025-12-16T14:35:46.731008" elapsed="0.020037"/>
+</kw>
+<kw name="Click" owner="SikuliLibrary">
+<msg time="2025-12-16T14:35:47.751563" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1765910147070.png'/&gt;
+[log] CLICK on L[828,748]@S(0) (567 msec)</msg>
+<arg>fullauto.png</arg>
+<doc>Click</doc>
+<status status="PASS" start="2025-12-16T14:35:46.751233" elapsed="1.000415"/>
+</kw>
+<status status="PASS" start="2025-12-16T14:35:46.730467" elapsed="1.021283"/>
+</kw>
+<kw name="Start here" owner="Validation">
+<kw name="Click" owner="SikuliLibrary">
+<msg time="2025-12-16T14:35:48.617673" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1765910147904.png'/&gt;
+[log] CLICK on L[111,37]@S(0) (571 msec)</msg>
+<arg>start.png</arg>
+<doc>Click</doc>
+<status status="PASS" start="2025-12-16T14:35:47.752379" elapsed="0.865406"/>
+</kw>
+<kw name="Wait Until Screen Contain" owner="SikuliLibrary">
+<msg time="2025-12-16T14:35:48.757943" level="INFO" html="true">&lt;img src='sikuli_captured/sikuliximage-1765910148752.png'/&gt;</msg>
+<arg>time.png</arg>
+<arg>50</arg>
+<doc>Wait until screen contain
+ Wait until image shown in screen</doc>
+<status status="PASS" start="2025-12-16T14:35:48.617986" elapsed="0.140044"/>
+</kw>
+<status status="PASS" start="2025-12-16T14:35:47.752050" elapsed="1.006060"/>
+</kw>
+<tag>Fazer teste</tag>
+<status status="PASS" start="2025-12-16T14:35:46.729583" elapsed="2.028862"/>
+</test>
+<status status="PASS" start="2025-12-16T14:35:42.717438" elapsed="6.042393"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Fazer teste</stat>
+</tag>
+<suite>
+<stat name="TC Validation" id="s1" pass="1" fail="0" skip="0">TC Validation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
